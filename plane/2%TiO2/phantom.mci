@@ -1,0 +1,23 @@
+
+##
+# Template of input files for Monte Carlo simulation (mcml).
+# Anything in a line after "#" is ignored as comments.
+# Space lines are also ignored.
+# Lengths are in cm, mua and mus are in 1/cm.
+####
+
+1.0						# file version
+1						# number of runs
+
+### Specify data for run 1
+phantom_test.mco	A			# output filename, ASCII/Binary
+1000000					# No. of photons
+1e-4   1e-3					# dz, dr
+3600   1000	90				# No. of dz, dr & da.
+
+1						# No. of layers
+# n	mua[cm^-1]	mus[cm^-1]	g	d[cm]		# One line for each layer
+1.0						# n for medium 
+1.4	.01	211	0.8	.36	# layer 1
+1.0	
+	

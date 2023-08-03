@@ -1,0 +1,9 @@
+a (albedo): 0.9680579797197928
+tau (optical thickness): 4.559
+mua (abs. coef): 0.6067652935727694
+mus (sca. coef): 18.389068039760566
+g (anisotropy): 0.7698240135794148
+Rcd (reflectance): 0.19667
+Tcd (transmittance): 0.409004
+Rcd_meas (measured R): 0.198
+Tc_meas (measured T): 0.01

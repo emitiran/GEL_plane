@@ -1,0 +1,6 @@
+20		      #puntos aleatorios (par)
+.4, .8                    #g value
+.96 .999      #a values
+6.87                 #tau values
+.36                  #d, thickness
+0.349, 0.33,0.000424861	      #Rcd, Tcd, Tc measured
