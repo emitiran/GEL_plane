@@ -309,7 +309,8 @@ def main():
     n_divided_by_2_rounded = [round(i / 2) for i in n]
 
     #print(g_values)
-    ai, af = map(float, a_values[0].split())
+    #ai, af = map(float, a_values[0].split())
+    ai, af = map(float, a_values)
     gi, gf = map(float, g_values)
 
 
